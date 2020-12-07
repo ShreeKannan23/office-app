@@ -19,11 +19,12 @@ npm run build
 ```
 npm run test:unit
 ```
+### Run your unit tests coverage
+```
+npm run test:coverage
+```
 
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
