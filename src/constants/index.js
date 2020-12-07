@@ -1,7 +1,7 @@
 export const WEATHER_API_KEY = 'vGcRMwvGhW81qHYV3kqzmVyPNOycJyF1'
 export const FLIGHT_API_KEY = 'bdf05b506amsh70c49cb9fe034b2p14a539jsn33306f09c234'
 
-export const WEATHER_API_BASE_URL = 'http://dataservice.accuweather.com/'
+export const WEATHER_API_BASE_URL = process.env.NODE_ENV === 'production' ? 'https://dataservice.accuweather.com/' : 'http://dataservice.accuweather.com/'
 export const FLIGHTS_API_BASE_URL = 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/'
 
 // Base location configuration
