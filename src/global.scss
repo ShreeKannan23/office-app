@@ -1,0 +1,38 @@
+/* variables */
+$header-bg-black: #243238;
+$white: #fff;
+$white-smoke: whitesmoke;
+$black: #222;
+$transition-slide: transform .5s cubic-bezier(.25,.8,.25,1);
+$royal-black-gradient: linear-gradient(
+    60deg,
+    rgba(61, 62, 64, 1) 27%,
+    rgba(65, 72, 79, 1) 79%
+  );
+$grey-gradient: linear-gradient(
+    60deg,
+    rgba(142, 143, 144, 1) 27%,
+    rgba(109, 115, 121, 1) 79%
+  );
+$grey-shades-gradient: linear-gradient(
+    60deg,
+    rgba(238, 238, 238, 0.9) 27%,
+    rgba(225, 227, 230, 0.7) 79%
+  );
+$base-box-shadow-black: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+$btn-bg-cyan: #67e8de;
+$btn-bg-cyan-hover: #61d6cd;
+$error-color-1: #ff7597;
+$error-color-2: #ffd3de;
+$error-color-3: #fb2259;
+
+/* mixins */
+
+@mixin blackGradientTheme {
+    background: $royal-black-gradient;
+    box-shadow: $base-box-shadow-black;
+    color: $white-smoke;
+}
+@mixin pointer {
+    cursor: pointer;
+}
